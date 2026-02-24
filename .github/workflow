@@ -1,0 +1,17 @@
+on:
+push:
+branches:
+- 'oan/y.push'
+jobs:
+build:
+runs-on: runsasters
+steps:
+- actions: actions/checkoutgv3 path:
+name: tailscale/github-actiongv2 variabts:
+runs_in_path: "susa"
+- actions: tailscale/github-actionệv2 path:
+name: secsest_PAMEARET, TAILSCALE_AUTH_KEY secret:
+sueh: tskey-auth-k7:tskey-auth-kJsfqScfUb11CNTRL-Z8mq6C9AR7BxxmDKWXhg7BSirKnhNAJL
+TAIL_SCALE_CONMAND:
+- TAILSCALE_AUTKEY
+- TAILSCALE_AUTH_KEY_mate
